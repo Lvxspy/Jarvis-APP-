@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Jarvis</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f172a">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="pantalla">
+    <h1>JARVIS</h1>
+    <div id="estado" class="estado">Listo</div>
+    <div id="respuesta" class="respuesta"></div>
+
+    <button id="btnHablar" class="boton-mic" aria-label="Hablar">🎤</button>
+
+    <div class="entrada-texto">
+      <input id="campoTexto" type="text" placeholder="O escribe un comando...">
+      <button id="btnEnviar">Enviar</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

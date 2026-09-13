@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jarvis</string>
+    <string name="descripcion_accesibilidad">Permite que Jarvis presione el botón de enviar en WhatsApp cuando tú se lo pides por voz.</string>
+</resources>
